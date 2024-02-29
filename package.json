@@ -1,0 +1,14 @@
+{
+  "name": "react-beautiful-dnd-react-popout-portal-window",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "@material-ui/core": "4.11.0",
+    "react": "17.0.1",
+    "react-beautiful-dnd": "13.1.0",
+    "react-dom": "17.0.1",
+    "react-popout": "1.0.3"
+  }
+}

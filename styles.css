@@ -1,0 +1,19 @@
+.arrow {
+  pointer-events: none;
+}
+
+.arrow__path {
+  stroke: lightgrey;
+  fill: transparent;
+  stroke-width: 3px;
+}
+.arrow__head {
+  fill: lightgrey;
+}
+.arrow__head g {
+  transform: scale(0.7, 0.6);
+}
+.arrow__head line {
+  stroke: lightgrey;
+  stroke-width: 4px;
+}
