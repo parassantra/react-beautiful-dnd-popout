@@ -1,9 +1,9 @@
 /* eslint-disable flowtype/require-valid-file-annotation */
 
 import React, { useState, Component } from "react";
-import { Button } from "@material-ui/core";
+import Button from '@mui/material/Button'
 import Popout from "react-popout";
-import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
+import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
 
 const initial = [
   { id: "id-1", content: "Quote1" },

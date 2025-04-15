@@ -1,7 +1,10 @@
 // @flow
 
-import React from 'react';
-import { render } from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import Index from './pages/index';
+const rootElement = document.getElementById('root');
 
-render(<Index />, document.getElementById('root'));
+if (rootElement) {
+  const root = createRoot(rootElement);
+  root.render(<Index />);
+}
